@@ -1,0 +1,14 @@
+ // SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.8.20;
+
+contract DEMO {
+    uint public num;
+
+    function setter(uint _num) public {
+        num = _num;
+    }
+
+    function getter() public view returns(uint) {
+        return num;
+    }
+}
